@@ -42,16 +42,14 @@ div.answer {
 }
 
 #heart {
-  
   font-size: 12em;
-  margin: 20% auto;
   color: red;
 }
 
 #answer {
   padding: 10px;
-  font-size: 2em;
-  color: darkgray;
+  font-size: 30;
+  color: rgb(113, 104, 104);
 }
 
 #crush {
