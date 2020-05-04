@@ -1,4 +1,4 @@
-#Get Lucky
+# Get Lucky
 
 Get Lucky is a simple JS game which allows the user to play and have up to 3 chances to get the desired response, which is generated randomly.
 
