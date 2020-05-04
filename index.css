@@ -1,0 +1,85 @@
+body {
+  background-color: cadetblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 80;
+  font-size: 3em;
+}
+
+p.info {
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: justify;
+}
+
+p {
+  margin: 0;
+}
+
+div.heart-shape {
+  background-color: none;
+  border: 1px solid black;
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  font-size: 400;
+}
+
+div.answer {
+  background-color: none;
+  border: 1px solid black;
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+#heart {
+  
+  font-size: 12em;
+  margin: 20% auto;
+  color: red;
+}
+
+#answer {
+  padding: 10px;
+  font-size: 2em;
+  color: darkgray;
+}
+
+#crush {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 100;
+  letter-spacing: 2px;
+  transition: .5s; font-size;
+}
+
+#button {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 100;
+  letter-spacing: 2px;
+  transition: .5s; font-size;
+}
+
+button:hover {
+  font-size: 1.4em;
+}
