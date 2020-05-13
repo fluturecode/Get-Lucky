@@ -62,7 +62,7 @@ div.answer {
   font-size: 1.2em;
   font-weight: 100;
   letter-spacing: 2px;
-  transition: .5s; font-size;
+  transition: .5s;
 }
 
 #button {
@@ -75,7 +75,7 @@ div.answer {
   font-size: 1.2em;
   font-weight: 100;
   letter-spacing: 2px;
-  transition: .5s; font-size;
+  transition: .5s;
 }
 
 button:hover {

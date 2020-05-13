@@ -8,30 +8,26 @@ let answers = [
   "You're cute, but need to put a little more work in...keep trying.",
   "Poor WiFi connection, tonigh't future is unclear.",
   "Not in that outfit, go change!",
-  "Things are looking up!",
+  "You wish!",
   "Outlook is good...clean up your room!",
-  "Tonight your gettin' lucky!",
-  "For sure!",
-  "I can't know that, I'm only a dumb computer."
-]; 
+  "Tonight your GETTIN' LUCKY!",
+  "It's a surprise...you'll just have to wait and see.",
+  "I can't know that, I'm only a dumb computer.",
+];
 
 let counter = 0;
 
-button.addEventListener("click", function(){
-  counter++ ;
+button.addEventListener("click", function () {
+  counter++;
   if (counter === 3) {
     return "No luck tonight!";
-  }
-  
-  else if (crush.value.length < 1) {
+  } else if (crush.value.length < 1) {
     alert("Please enter the name of your crush.");
-  } 
-  
-  else {
+  } else {
     heart.innerText = "";
-    for(let i = 0; i < 9; i++){
-      let answer = answers[Math.floor(Math.random()*answers.length)]
+    for (let i = 0; i < 9; i++) {
+      let answer = answers[Math.floor(Math.random() * answers.length)];
       document.getElementById("answer").innerHTML = answer;
+    }
   }
- }
 });
